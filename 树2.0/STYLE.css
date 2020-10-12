@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    z-index: -3;
+}
+
+.node circle {
+    fill: rgba(136, 0, 23, 0.7);
+    stroke: rgba(136, 0, 23, 0.7);
+    stroke-width: 3px;
+}
+
+.node rect {
+    fill: #291002ca;
+    stroke: rgba(136, 0, 23, 0.7);
+    stroke-width: 2px;
+}
+
+.node text {
+    font: 15px sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: rgb(136, 0, 23, 0.7);
+    stroke-width: 2px;
+}
+
+.flex-container {
+    /*background-size:100% 100%;
+    //background-attachment: fixed;*/
+}
+
+.flex-item1 {
+    left: 60vw;
+    width: 39%;
+    height: 15%;
+    top: 2%;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.flex-item2 {
+    left: 60vw;
+    width: 38.5%;
+    height: 78%;
+    top: 18%;
+    position: absolute;
+    border: 3px solid rgb(43, 149, 144);
+    opacity: 0.7;
+}
+
+.flex-item3 {
+    left: 1vw;
+    width: 58%;
+    top: 2%;
+    height: 15%;
+    position: absolute;
+    z-index: -2;
+}
+
+#show-tree {
+    <!--position: relative;
+    -->left: 1%;
+    top: 2%;
+    height: 100%;
+    color: rgb(250, 249, 222);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 15vh;
+    text-shadow: rgb(34, 34, 34) 2px 2px 3px;
+    background: rgb(136, 0, 23, 0.7);
+    border-radius: 6px;
+    opacity: 0.7;
+}
+
+#titlename {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    height: 100%;
+    line-height: 15vh;
+    text-shadow: rgb(34, 34, 34) 2px 2px 3px;
+    background: rgb(112, 149, 43);
+    border-radius: 6px;
+}
+
+#textbotton {
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    background: none;
+    border-style: none;
+    color: white;
+    height: 20%;
+    top: 80%;
+    line-height: 50%;
+    position: absolute;
+    text-shadow: rgb(34, 34, 34) 2px 2px 3px;
+    background: rgb(149, 43, 43);
+}
+
+<!--div#div1 {
+    left: 760px;
+    width: 500px;
+    height: 80px;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    border: 3px solid #0000CD;
+    opacity: 0.3;
+}
+
+div#div2 {
+    left: 760px;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 100px;
+    border: 3px solid #3dad21;
+    opacity: 0.7;
+}
+
+div#div3 {
+    width: 735px;
+    height: 543px;
+    position: absolute;
+    border: 3px solid #B22222;
+    opacity: 0;
+}
+
+#user {
+    width: 38.5vw;
+    height: 75vh;
+}
+
+-->
